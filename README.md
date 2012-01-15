@@ -57,18 +57,11 @@ body. This string can have variables embedded.
 Defines the [MIME types](http://en.wikipedia.org/wiki/MIME_type) of
 the files where the footer will be included.
 
-## Original documentation
+## Installation
 
-The
-[original documentation](http://tengine.taobao.org/document_cn/http_footer_filter_cn.html)
-in Chinese. Note that the examples given therein rely on
-**non-standard** Nginx
-[variables](http://tengine.taobao.org/document_cn/variables_cn.html)
-that are not
-[available](http://nginx.org/en/docs/http/ngx_http_core_module.html#variables)
-on the official Nginx source but only on [tengine](http://tengine.taobao.org).
-
- 1. Clone the git repo. 
+ 1. Clone the git repo.
+    
+        git clone  git://github.com/perusio/nginx-http-footer-filter.git
 
  2. Add the module to the build configuration by adding
     `--add-module=/path/to/nginx-http-footer-filter`.
@@ -80,6 +73,17 @@ on the official Nginx source but only on [tengine](http://tengine.taobao.org).
  5. Configure contexts where footer filter is enabled.
 
  6. Done.
+
+## Original documentation
+
+The
+[original documentation](http://tengine.taobao.org/document_cn/http_footer_filter_cn.html)
+in Chinese. Note that the examples given therein rely on
+**non-standard** Nginx
+[variables](http://tengine.taobao.org/document_cn/variables_cn.html)
+that are not
+[available](http://nginx.org/en/docs/http/ngx_http_core_module.html#variables)
+on the official Nginx source but only on [tengine](http://tengine.taobao.org).
 
 ## License
 
