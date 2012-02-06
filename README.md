@@ -74,6 +74,18 @@ the files where the footer will be included.
 
  6. Done.
 
+## Tagging releases 
+
+I'm tagging each release in synch with the
+[Tengine](http://tengine.taobao.org) releases.
+ 
+## Other tengine modules on Github
+
+ + [http concat](https://github.com/perusio/nginx-http-concat):
+   allows to concatenate a given set of files and ship a single
+   response from the server. It's particularly useful for **aggregating**
+   CSS and Javascript files.
+
 ## Original documentation
 
 The
