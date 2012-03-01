@@ -86,6 +86,10 @@ I'm tagging each release in synch with the
    response from the server. It's particularly useful for **aggregating**
    CSS and Javascript files.
 
+ + [http slice](https://github.com/perusio/nginx-http-slice): allows
+   to serve a file by slices. A sort of reverse byte-range. Useful for
+   serving large files while not hogging the network. 
+
 ## Original documentation
 
 The
