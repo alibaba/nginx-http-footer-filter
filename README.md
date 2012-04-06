@@ -61,7 +61,7 @@ the files where the footer will be included.
 
  1. Clone the git repo.
     
-        git clone  git://github.com/perusio/nginx-http-footer-filter.git
+        git clone  git://github.com/taobao/nginx-http-footer-filter.git
 
  2. Add the module to the build configuration by adding
     `--add-module=/path/to/nginx-http-footer-filter`.
@@ -81,12 +81,12 @@ I'm tagging each release in synch with the
  
 ## Other tengine modules on Github
 
- + [http concat](https://github.com/perusio/nginx-http-concat):
+ + [http concat](https://github.com/taobao/nginx-http-concat):
    allows to concatenate a given set of files and ship a single
    response from the server. It's particularly useful for **aggregating**
    CSS and Javascript files.
 
- + [http slice](https://github.com/perusio/nginx-http-slice): allows
+ + [http slice](https://github.com/taobao/nginx-http-slice): allows
    to serve a file by slices. A sort of reverse byte-range. Useful for
    serving large files while not hogging the network. 
 
